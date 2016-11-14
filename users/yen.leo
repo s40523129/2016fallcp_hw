@@ -18,7 +18,7 @@
 <v t="leo.20151213173830.1" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
-<v t="amd.20151215180106.1"><vh>設定與開發</vh>
+<v t="amd.20151215180106.1" a="E"><vh>設定與開發</vh>
 <v t="amd.20151216151325.1" a="E"><vh>@clean index.html</vh>
 <v t="amd.20161004083800.1" a="E"><vh>html</vh>
 <v t="amd.20161004083800.2"><vh>head</vh></v>
@@ -31,7 +31,7 @@
 <v t="yen.20161016023122.1" a="E"><vh>快捷鍵</vh>
 <v t="yen.20161016023122.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="amd.20161004104820.1"><vh>三大主題教學</vh>
+<v t="amd.20161004104820.1" a="E"><vh>三大主題教學</vh>
 <v t="amd.20161004104641.1" a="E"><vh>主題教學</vh>
 <v t="amd.20161004104641.2"><vh>計算機程式在教什麼?</vh></v>
 </v>
@@ -47,25 +47,25 @@
 <v t="yen.20161011114704.1" a="E"><vh>創造力</vh>
 <v t="yen.20161011114704.2"><vh>何謂創造力?</vh></v>
 </v>
-<v t="yen.20161011121637.1"><vh>所謂自學</vh>
+<v t="yen.20161011121637.1" a="E"><vh>所謂自學</vh>
 <v t="yen.20161011121637.2"><vh>自學的訓練</vh></v>
 </v>
-<v t="amd.20161004105716.1"><vh>執行力</vh>
+<v t="amd.20161004105716.1" a="E"><vh>執行力</vh>
 <v t="amd.20161004105716.2"><vh>高效執行力</vh></v>
 </v>
 </v>
-<v t="yen.20161016004633.1"><vh>CP 課程倉儲</vh>
-<v t="yen.20161016004633.4"><vh>課程時段與規劃</vh>
+<v t="yen.20161016004633.1" a="E"><vh>CP 課程倉儲</vh>
+<v t="yen.20161016004633.4" a="E"><vh>課程時段與規劃</vh>
 <v t="yen.20161016004633.5"><vh>規劃、Wiki 與網誌</vh></v>
 </v>
-<v t="yen.20161016010643.1"><vh>下載 miniconda 可攜環境</vh>
+<v t="yen.20161016010643.1" a="E"><vh>下載 miniconda 可攜環境</vh>
 <v t="yen.20161016010643.2"><vh>下載可攜程式環境</vh></v>
 </v>
 <v t="yen.20161016010719.1" a="E"><vh>學員自評項目</vh>
 <v t="yen.20161016012922.1"><vh>下載可攜程式環境</vh></v>
 </v>
 </v>
-<v t="yen.20161011122932.1"><vh>自學力訓練</vh>
+<v t="yen.20161011122932.1" a="E"><vh>自學力訓練</vh>
 <v t="yen.20161011122601.1" a="E"><vh>自學的材料</vh>
 <v t="yen.20161011122601.2"><vh>自學 Python3</vh></v>
 </v>
@@ -79,7 +79,7 @@
 <v t="yen.20161011124118.2"><vh>Python 2 或 3?</vh></v>
 </v>
 </v>
-<v t="yen.20161011125115.1"><vh>執行力訓練</vh>
+<v t="yen.20161011125115.1" a="E"><vh>執行力訓練</vh>
 <v t="yen.20161016011920.1" a="E"><vh>程式練習主題</vh>
 <v t="yen.20161016011920.2"><vh>程式專題</vh></v>
 </v>
@@ -96,7 +96,7 @@
 <v t="yen.20161016012402.2"><vh>網際遊戲</vh></v>
 </v>
 </v>
-<v t="yen.20161011143808.1"><vh>協同力訓練</vh>
+<v t="yen.20161011143808.1" a="E"><vh>協同力訓練</vh>
 <v t="yen.20161011143808.2" a="E"><vh>Github 帳號</vh>
 <v t="yen.20161011143808.3"><vh>Github 倉儲網頁</vh></v>
 </v>
@@ -107,7 +107,7 @@
 <v t="yen.20161011144715.2"><vh>Github 倉儲拉回請求</vh></v>
 </v>
 </v>
-<v t="yen.20161011145156.1"><vh>開始學 Python</vh>
+<v t="yen.20161011145156.1" a="E"><vh>開始學 Python</vh>
 <v t="yen.20161011145156.2" a="E"><vh>Python 基本語法</vh>
 <v t="yen.20161011145156.3"><vh>Python3 語法</vh></v>
 </v>
@@ -133,7 +133,7 @@
 <v t="yen.20161011150901.2"><vh>網際動畫範例</vh></v>
 </v>
 </v>
-<v t="yen.20161016012809.1"><vh>各式內容引用範例</vh>
+<v t="yen.20161016012809.1" a="E"><vh>各式內容引用範例</vh>
 <v t="yen.20161016012809.2" a="E"><vh>導入數學符號與方程式</vh>
 <v t="yen.20161016012809.3"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -166,10 +166,12 @@
 <v t="amd.20160727114506.1" a="E"><vh>201609</vh>
 <v t="amd.20160727120222.1"><vh>@edit 20160921.md</vh></v>
 <v t="leo.20161014142409.1"><vh>@edit 20161014.md</vh></v>
+<v t="leo.20161114182743.1"><vh>@edit 20161111.md</vh></v>
+<v t="leo.20161114183743.1"><vh>@edit 20161004.md</vh></v>
 </v>
 </v>
 </v>
-<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
+<v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
 <v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 </v>
@@ -177,6 +179,20 @@
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
 <v t="yen.20161022111056.1"><vh>@button https server</vh></v>
 <v t="yen.20161022151749.1"><vh>產生 .key 與 .crt</vh></v>
+<v t="leo.20161111235800.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20161111235800.3" a="E"><vh>Recovered node "head" from @clean index.html</vh>
+<v t="leo.20161111235800.4"><vh>old:head</vh></v>
+<v t="leo.20161111235800.5"><vh>new:head</vh></v>
+</v>
+<v t="leo.20161111235800.6" a="E"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
+<v t="leo.20161111235800.7"><vh>old:封面投影片內容</vh></v>
+<v t="leo.20161111235800.8"><vh>new:封面投影片內容</vh></v>
+</v>
+<v t="leo.20161111235800.9" a="E"><vh>Recovered node "投影片快捷鍵" from @clean index.html</vh>
+<v t="leo.20161111235800.10" a="M"><vh>old:投影片快捷鍵</vh></v>
+<v t="leo.20161111235800.11"><vh>new:投影片快捷鍵</vh></v>
+</v>
+</v>
 </vnodes>
 <tnodes>
 <t tx="amd.20151215170031.1"></t>
@@ -221,7 +237,7 @@ print("hello")
 <t tx="amd.20161004083800.2">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;    
-2016 Fall 計算機程式課程
+郭育良的計算機程式課程
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -300,7 +316,7 @@ print("hello")
 
 						
 </t>
-<t tx="amd.20161004095719.2"># 2016Fall 計算機程式課程
+<t tx="amd.20161004095719.2"># 郭育良的計算機程式課程
 
 ### 虎科大機械設計工程系
 
@@ -308,13 +324,10 @@ print("hello")
 Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
 &lt;/small&gt;
 
-[甲班計算機程式課程網誌](blog/index.html)
+[Blog](https://s40523129.github.io/2016fallcp_hw/blog/)
 
-[乙班計算機程式課程網誌](https://mdecourse.github.io/2016fallcpb/blog)
 
-[計算機程式教學影片](https://vimeo.com/user24079973)
 
-[電腦輔助設計室電腦硬體](http://project.mde.tw/blog/yen-dian-nao-fu-zhu-she-ji-shi-dian-nao-pei-zhi.html)
 </t>
 <t tx="amd.20161004104641.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -478,6 +491,180 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
+<t tx="leo.20161111235800.10"># 投影片快捷鍵
+
+* 利用箭頭上下前後換頁
+* 按 f 鍵進入全螢幕模式 (full screen)
+* 按 s 鍵可以顯示投影片筆記 (show)
+* 按 o 鍵可以切換單張或全域檢視 (overview)
+* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
+* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20161111235800.11"># [vimeo](https://vimeo.com/190999963)
+</t>
+<t tx="leo.20161111235800.2"></t>
+<t tx="leo.20161111235800.3">(uncached) amd.20161004083800.2
+Diff...
+  &lt;head&gt;
+      &lt;meta charset="utf-8"&gt;
+  &lt;title&gt;    
+- 郭育良的計算機程式課程
++ 2016 Fall 計算機程式課程
+  &lt;/title&gt;
+      &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+      &lt;meta name="author" content="Hakim El Hattab"&gt;
+      
+      &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+      &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+      
+      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+      
+      &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+      &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+      
+      &lt;!-- Theme used for syntax highlighting of code --&gt;
+      &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+  
+      &lt;!-- Printing and PDF exports --&gt;
+      &lt;script&gt;
+          var link = document.createElement( 'link' );
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+          document.getElementsByTagName( 'head' )[0].appendChild( link );
+      &lt;/script&gt;
+  
+      &lt;!--[if lt IE 9]&gt;
+      &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+      &lt;![endif]--&gt;
+  &lt;/head&gt;
+  
+</t>
+<t tx="leo.20161111235800.4">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+&lt;title&gt;    
+2016 Fall 計算機程式課程
+&lt;/title&gt;
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
+    
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+    
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+    
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+
+    &lt;!-- Printing and PDF exports --&gt;
+    &lt;script&gt;
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    &lt;/script&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
+
+</t>
+<t tx="leo.20161111235800.5">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+&lt;title&gt;    
+郭育良的計算機程式課程
+&lt;/title&gt;
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
+    
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+    
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+    
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+
+    &lt;!-- Printing and PDF exports --&gt;
+    &lt;script&gt;
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    &lt;/script&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
+
+</t>
+<t tx="leo.20161111235800.6">(uncached) amd.20161004095719.2
+Diff...
+- # 郭育良的計算機程式課程
++ # 2016Fall 計算機程式課程
+  
+  ### 虎科大機械設計工程系
+  
+  &lt;small&gt;
+  Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+  &lt;/small&gt;
+  
+- [Blog](https://s40523129.github.io/2016fallcp_hw/blog/)
+
+</t>
+<t tx="leo.20161111235800.7"># 2016Fall 計算機程式課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+&lt;/small&gt;
+
+[甲班計算機程式課程網誌](blog/index.html)
+
+[乙班計算機程式課程網誌](https://mdecourse.github.io/2016fallcpb/blog)
+
+[計算機程式教學影片](https://vimeo.com/user24079973)
+
+[電腦輔助設計室電腦硬體](http://project.mde.tw/blog/yen-dian-nao-fu-zhu-she-ji-shi-dian-nao-pei-zhi.html)
+</t>
+<t tx="leo.20161111235800.8"># 郭育良的計算機程式課程
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+&lt;/small&gt;
+
+[Blog](https://s40523129.github.io/2016fallcp_hw/blog/)
+
+
+
+</t>
+<t tx="leo.20161111235800.9">(uncached) yen.20161016023122.2
+Diff...
+  # 投影片快捷鍵
+  
+- vimeo(https://vimeo.com/190999963)
++ * 利用箭頭上下前後換頁
++ * 按 f 鍵進入全螢幕模式 (full screen)
++ * 按 s 鍵可以顯示投影片筆記 (show)
++ * 按 o 鍵可以切換單張或全域檢視 (overview)
++ * 按 b 或 . 鍵可以切換螢幕黑屏 (black)
++ * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+  
+</t>
 <t tx="yen.20161011114704.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -549,7 +736,8 @@ DEFAULT_DATE = 'fs'</t>
 </t>
 <t tx="yen.20161011122932.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011122957.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -605,7 +793,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161011125115.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011125115.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -623,7 +812,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161011143808.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011143808.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -672,7 +862,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161011145156.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011145156.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -923,7 +1114,8 @@ Brython (Javascript): https://www.brython.info/
 </t>
 <t tx="yen.20161016012809.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161016012809.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -1001,7 +1193,8 @@ make.start()
 * 上課筆記與心得寫在個人的 2016fallcp_hw 倉儲 Wiki 中
 * 利用 [ShareX](https://getsharex.com/) 錄製上課操作練習影片
 * 將影片加上說明字幕後, 上傳至個人 [Vimeo](https://vimeo.com/) 與 [Youtube](https://www.youtube.com)
-* 每週更新個人與分組的 Github Pages 投影片與網誌</t>
+* 每週更新個人與分組的 Github Pages 投影片與網誌
+</t>
 <t tx="yen.20161016023122.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1013,12 +1206,7 @@ make.start()
 </t>
 <t tx="yen.20161016023122.2"># 投影片快捷鍵
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+vimeo(https://vimeo.com/190999963)
 
 </t>
 <t tx="yen.20161022111056.1">@language python

@@ -5,35 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2016-10-22T16:13:58-00:00</lastmod>
+<lastmod>2016-11-14T18:44:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2016-10-22T16:13:58-00:00</lastmod>
+<lastmod>2016-11-14T18:44:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2016-10-22T16:13:58-00:00</lastmod>
+<lastmod>2016-11-14T18:44:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2016-10-22T16:13:58-00:00</lastmod>
+<lastmod>2016-11-14T18:44:13-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2016-10-22T08:27:21+08:00</lastmod>
+<lastmod>2016-11-11T18:04:05+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./2016fall.html</loc>
+<lastmod>2016-11-11T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -41,6 +48,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./2016fall-cheng-shi-lian-xi-ti.html</loc>
 <lastmod>2016-10-22T12:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue-1.html</loc>
+<lastmod>2016-09-11T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -54,14 +68,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/misc.html</loc>
-<lastmod>2016-10-22T12:00:00+08:06</lastmod>
+<lastmod>2016-11-11T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/shi-yong-dao.html</loc>
+<lastmod>2016-11-11T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/chuang-zao-li.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
+<lastmod>2016-09-11T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -74,6 +95,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./tag/biao-da-neng-li.html</loc>
+<lastmod>2016-09-11T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./tag/xie-tong-she-ji.html</loc>
 <lastmod>2016-09-02T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -81,15 +109,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/biao-da-neng-li.html</loc>
-<lastmod>2016-09-02T12:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./author/yen.html</loc>
-<lastmod>2016-10-22T12:00:00+08:06</lastmod>
+<lastmod>2016-11-11T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
