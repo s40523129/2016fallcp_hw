@@ -1,5 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall CPA 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-11-11T12:00:00+08:00</updated><entry><title>github服務內容</title><link href="./githubfu-wu-nei-rong.html" rel="alternate"></link><published>2016-11-11T12:00:00+08:00</published><updated>2016-11-11T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-11:./githubfu-wu-nei-rong.html</id><summary type="html">&lt;p&gt;GitHub平台於2007年10月1日開始開發。網站於2008年2月以beta版本開始上線，4月份正式上線。
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2016Fall CPA 課程網誌 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-12-02T13:00:00+08:00</updated><entry><title>機械設計</title><link href="./ji-jie-she-ji.html" rel="alternate"></link><published>2016-12-02T13:00:00+08:00</published><updated>2016-12-02T13:00:00+08:00</updated><author><name>郭育良</name></author><id>tag:,2016-12-02:./ji-jie-she-ji.html</id><summary type="html">&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫方格線 --&gt;
+
+&lt;canvas id="japanflag3" width="600" height="300"&gt;&lt;/canvas&gt;
+
+&lt;div id="container3"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+import re
+# 準備繪圖畫布
+canvas = doc["japanflag3"]
+container = doc["container3"]
+ctx = canvas.getContext("2d")
+
+def background(x, y, xinc, yinc, xnum, ynum, ctx):
+    # 水平線
+    for i in range(ynum+1):
+        ctx.beginPath()
+    # 設定線的寬度為 1 個單位
+        if i == 0:
+            ctx.lineWidth = 7
+        else:
+            ctx.lineWidth = 1
+        ctx.moveTo(x-1, y+i*yinc)
+        ctx.lineTo(x+xnum*xinc+1, y+i*yinc)
+        # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+        ctx.strokeStyle = "blue"
+        ctx.stroke()
+        ctx.closePath()
+
+    # 垂直線
+    for i in range(xnum+1):
+        ctx.beginPath()
+    # 設定線的寬度為 1 個單位
+        ctx.lineWidth = 1
+        ctx.moveTo(x+i*xinc, y)
+        ctx.lineTo(x+i*xinc, y+ynum*yinc)
+        # 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+        ctx.strokeStyle = "blue"
+        ctx.stroke()
+        ctx.closePath()
+
+w = 20
+h = 30
+background(100, 100, w, h, 5, 5, ctx)
+&lt;/script</summary><category term="prython"></category></entry><entry><title>github服務內容</title><link href="./githubfu-wu-nei-rong.html" rel="alternate"></link><published>2016-11-11T12:00:00+08:00</published><updated>2016-11-11T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-11:./githubfu-wu-nei-rong.html</id><summary type="html">&lt;p&gt;GitHub平台於2007年10月1日開始開發。網站於2008年2月以beta版本開始上線，4月份正式上線。
 GitHub裡面的專案可以透過標準的Git命令進行存取和操作。同時，所有的Git命令都可以用到GitHub專案上面。GitHub開發了針對Windows和OS X作業系統的桌面用戶端。此外，也可以使用第三方外掛模組來實作Git功能。
 網站提供了一系列社群網路具有的功能，例如讚、跟随、評論。用戶可以透過復刻他人專案的形式參與開發，並可透過 Collaboration graph(協作示意圖)來檢視有多少開發者參與了開發並追蹤最新的復刻版本。此外網站還有Wiki（透過一個名為 gollum 的軟體實作）等功能。
 GitHub同時允許註冊用戶和非註冊用戶在網頁中瀏覽專案，也可以以ZIP格式打包下載。但是用戶必須註冊一個帳號然後才能進行討論、建立並編輯專案、參與他人的專案和代碼審查。
@@ -27,19 +88,7 @@ Tom Preston-Werner於2008年開發了Gist功能。Gist繼承了貼上箱的觀�
 Student Developer Pack[編輯]
 GitHub與Bitnami、Crowdflower、DigitalOcean、DNSimple、HackHands、Namecheap、Orchestrate、Screenhero、SendGrid、Stripe、Travis CI和虛幻引擎等共同合作，於2014年10月7日發起了一個名為GitHub學生開發者套裝的專案。該專案為學生提供了一些免費的開發工具和服務。&lt;/p&gt;</summary><category term="使用導"></category></entry><entry><title>關於github</title><link href="./guan-yu-github.html" rel="alternate"></link><published>2016-11-10T11:00:00+08:00</published><updated>2016-11-10T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-10:./guan-yu-github.html</id><summary type="html">&lt;p&gt;GitHub是一個透過Git進行版本控制的軟體原始碼代管服務，由GitHub公司（曾稱Logical Awesome）的開發者Chris Wanstrath、PJ Hyett和Tom Preston-Werner使用Ruby on Rails編寫而成。
 GitHub同時提供付費帳戶和免費帳戶。這兩種帳戶都可以建立公開的代碼倉庫，但是付費帳戶也可以建立私有的代碼倉庫。根據在2009年的Git用戶調查，GitHub是最流行的Git存取站點。[2]除了允許個人和組織建立和存取代碼庫以外，它也提供了一些方便社會化軟體開發的功能，包括允許用戶追蹤其他用戶、組織、軟體庫的動態，對軟體代碼的改動和bug提出評論等。GitHub也提供了圖表功能，用於顯示開發者們怎樣在代碼庫上工作以及軟體的開發活躍程度。
-截止到2015年，GitHub已經有超過九百萬註冊用戶和2110萬代碼庫。[3]事實上已經成為了世界上最大的代碼存放網站和開源社群。&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016Fall 機械設計主題教學 (1)</title><link href="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue-1.html" rel="alternate"></link><published>2016-09-11T12:00:00+08:00</published><updated>2016-09-11T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-09-11:./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue-1.html</id><summary type="html">&lt;p&gt;知識管理與最佳化應用實驗室試圖利用計算機程式、網際內容管理、電腦輔助設計實習與協同產品設計實習等課程, 進行與機械設計相關的主題式教學, 其中包含強化創造力的教學、令學員熟習六種工程表達方式, 並且俱備融入協同設計所需要的四大面向知識與技能.&lt;/p&gt;
-
-
-&lt;h1&gt;機械設計主題教學&lt;/h1&gt;
-&lt;p&gt;創造力三元素, 機械設計的六種表達, 協同設計的四大面向.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;強化創造能力 - 自學力、程式力與想像力
-(Creative Competencies)&lt;/li&gt;
-&lt;li&gt;熟習六種表達  - 口語、文字、2D、3D、理論與實體表達
-(Six Presentation Methods)&lt;/li&gt;
-&lt;li&gt;融入協同設計 - 電腦、網路、軟硬體工具與協同專案
-(Collaborative Designs)&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category></entry><entry><title>2016Fall 機械設計主題教學</title><link href="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html" rel="alternate"></link><published>2016-09-02T12:00:00+08:00</published><updated>2016-09-02T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-09-02:./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html</id><summary type="html">&lt;p&gt;知識管理與最佳化應用實驗室試圖利用計算機程式、網際內容管理、電腦輔助設計實習與協同產品設計實習等課程, 進行與機械設計相關的主題式教學, 其中包含強化創造力的教學、令學員熟習六種工程表達方式, 並且俱備融入協同設計所需要的四大面向知識與技能.&lt;/p&gt;
+截止到2015年，GitHub已經有超過九百萬註冊用戶和2110萬代碼庫。[3]事實上已經成為了世界上最大的代碼存放網站和開源社群。&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016Fall 機械設計主題教學</title><link href="./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html" rel="alternate"></link><published>2016-09-02T12:00:00+08:00</published><updated>2016-09-02T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-09-02:./2016fall-ji-jie-she-ji-zhu-ti-jiao-xue.html</id><summary type="html">&lt;p&gt;知識管理與最佳化應用實驗室試圖利用計算機程式、網際內容管理、電腦輔助設計實習與協同產品設計實習等課程, 進行與機械設計相關的主題式教學, 其中包含強化創造力的教學、令學員熟習六種工程表達方式, 並且俱備融入協同設計所需要的四大面向知識與技能.&lt;/p&gt;
 
 
 &lt;h1&gt;機械設計主題教學&lt;/h1&gt;
