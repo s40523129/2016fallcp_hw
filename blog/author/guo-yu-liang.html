@@ -315,7 +315,7 @@ num ...</script></!--意下實際利用></!--></!-->
             </article>
             <hr/>
             <article>
-                <h2><a href="../ji-jie-she-ji.html">機械設計</a></h2>
+                <h2><a href="../w12.html">w12</a></h2>
                 <div class="summary"><!-- 導入 Brython 標準程式庫 -->
 
 <script type="text/javascript" 
@@ -347,7 +347,39 @@ container = doc["container3"]
 ctx = canvas.getContext("2d")
 
 def background(x, y ...</script></!--></!--></!-->
-                    <a class="btn btn-default btn-xs" href="../ji-jie-she-ji.html">more ...</a>
+                    <a class="btn btn-default btn-xs" href="../w12.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="../w14lian-xi.html">w14練習</a></h2>
+                <div class="summary"><!-- 導入 Brython 標準程式庫 -->
+
+<script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
+</script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<script type="text/python3">
+from browser import document
+from browser import alert
+
+def get_input(ev):
+    the_input= input("請輸入")
+    alert("輸入為:"+str(the_input))
+
+document['ch01'].bind('click',get_input)
+</script>
+
+<p><button id="ch01">40523129</button></p>
+                    <a class="btn btn-default btn-xs" href="../w14lian-xi.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -367,8 +399,13 @@ def background(x, y ...</script></!--></!--></!-->
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="../ji-jie-she-ji.html">
-                            機械設計
+                        <a href="../w12.html">
+                            w12
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../w14lian-xi.html">
+                            w14練習
                         </a>
                     </li>
                 </ul>

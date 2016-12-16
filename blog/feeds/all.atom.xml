@@ -34,7 +34,7 @@ num = input("輸入重複執行次數:")
 for i in range(1,int(num)+1):
     mystring += str(i)+":hello mde"+ html.BR()
 container &lt;= mystring
-&lt;/script&gt;</summary><category term="w13"></category></entry><entry><title>機械設計</title><link href="./ji-jie-she-ji.html" rel="alternate"></link><published>2016-12-02T13:00:00+08:00</published><updated>2016-12-02T13:00:00+08:00</updated><author><name>郭育良</name></author><id>tag:,2016-12-02:./ji-jie-she-ji.html</id><summary type="html">&lt;!-- 導入 Brython 標準程式庫 --&gt;
+&lt;/script&gt;</summary><category term="w13"></category></entry><entry><title>w12</title><link href="./w12.html" rel="alternate"></link><published>2016-12-02T13:00:00+08:00</published><updated>2016-12-02T13:00:00+08:00</updated><author><name>郭育良</name></author><id>tag:,2016-12-02:./w12.html</id><summary type="html">&lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" 
     src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
@@ -95,7 +95,32 @@ def background(x, y, xinc, yinc, xnum, ynum, ctx):
 w = 20
 h = 30
 background(100, 100, w, h, 5, 5, ctx)
-&lt;/script</summary><category term="prython"></category></entry><entry><title>github服務內容</title><link href="./githubfu-wu-nei-rong.html" rel="alternate"></link><published>2016-11-11T12:00:00+08:00</published><updated>2016-11-11T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-11:./githubfu-wu-nei-rong.html</id><summary type="html">&lt;p&gt;GitHub平台於2007年10月1日開始開發。網站於2008年2月以beta版本開始上線，4月份正式上線。
+&lt;/script</summary><category term="w12"></category></entry><entry><title>w14練習</title><link href="./w14lian-xi.html" rel="alternate"></link><published>2016-12-02T13:00:00+08:00</published><updated>2016-12-02T13:00:00+08:00</updated><author><name>郭育良</name></author><id>tag:,2016-12-02:./w14lian-xi.html</id><summary type="html">&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document
+from browser import alert
+
+def get_input(ev):
+    the_input= input("請輸入")
+    alert("輸入為:"+str(the_input))
+
+document['ch01'].bind('click',get_input)
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="ch01"&gt;40523129&lt;/button&gt;&lt;/p&gt;</summary><category term="w14"></category></entry><entry><title>github服務內容</title><link href="./githubfu-wu-nei-rong.html" rel="alternate"></link><published>2016-11-11T12:00:00+08:00</published><updated>2016-11-11T12:00:00+08:00</updated><author><name>yen</name></author><id>tag:,2016-11-11:./githubfu-wu-nei-rong.html</id><summary type="html">&lt;p&gt;GitHub平台於2007年10月1日開始開發。網站於2008年2月以beta版本開始上線，4月份正式上線。
 GitHub裡面的專案可以透過標準的Git命令進行存取和操作。同時，所有的Git命令都可以用到GitHub專案上面。GitHub開發了針對Windows和OS X作業系統的桌面用戶端。此外，也可以使用第三方外掛模組來實作Git功能。
 網站提供了一系列社群網路具有的功能，例如讚、跟随、評論。用戶可以透過復刻他人專案的形式參與開發，並可透過 Collaboration graph(協作示意圖)來檢視有多少開發者參與了開發並追蹤最新的復刻版本。此外網站還有Wiki（透過一個名為 gollum 的軟體實作）等功能。
 GitHub同時允許註冊用戶和非註冊用戶在網頁中瀏覽專案，也可以以ZIP格式打包下載。但是用戶必須註冊一個帳號然後才能進行討論、建立並編輯專案、參與他人的專案和代碼審查。
