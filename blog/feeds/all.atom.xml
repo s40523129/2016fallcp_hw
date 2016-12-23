@@ -34,11 +34,13 @@ c = do["con"]
 def compa(e):
     your_input = input("請輸入一個整數!")
     # 如何判斷所輸入的整數比 10 大
-
-    if int(your_input) &gt; 10:
-        c &lt;= "所輸入的整數:" + your_input + "比 10 大" + html.BR()
-    else:
-        c &lt;= "所輸入的整數:" + your_input + "比 10 小" + html.BR()
+    try:
+        if int(your_input) &gt; 10:
+            c &lt;= "所輸入的整數:" + your_input + "比 10 大" + html.BR()
+        else:
+            c &lt;= "所輸入的整數:" + your_input + "比 10 小" + html.BR()
+    except:
+        c &lt;= "請輸入整數!!" + html.BR()
 
 #print("test")
 '''
@@ -48,7 +50,7 @@ for i in range(5):
 do["b1"].bind("click", compa)
 &lt;/script&gt;
 
-&lt;p&gt;&lt;button id="b1"&gt;compa&lt;/butt,on&gt;&lt;/p&gt;
+&lt;p&gt;&lt;button id="b1"&gt;compa&lt;/button&gt;&lt;/p&gt;
 &lt;pre class="brush:python"&gt;
 
 &lt;div id="con"&gt;&lt;/div&gt;
@@ -59,11 +61,13 @@ c = do["con"]
 def compa(e):
     your_input = input("請輸入一個整數!")
     # 如何判斷所輸入的整數比 10 大
-
-    if int(your_input) &gt; 10:
-        c &lt;= "所輸入的整數:" + your_input + "比 10 大" + html.BR()
-    else:
-        c &lt;= "所輸入的整數:" + your_input + "比 10 小" + html.BR()
+    try:
+        if int(your_input) &gt; 10:
+            c &lt;= "所輸入的整數:" + your_input + "比 10 大" + html.BR()
+        else:
+            c &lt;= "所輸入的整數:" + your_input + "比 10 小" + html.BR()
+    except:
+        c &lt;= "請輸入整數!!" + html.BR()
 
 #print("test")
 '''
@@ -72,7 +76,8 @@ for i in range(5):
 '''
 do["b1"].bind("click", compa)
 &lt;/script&gt;
-&lt;button id="b1"&gt;compa&lt;/butt,on&gt;
+&lt;button id="b1"&gt;compa&lt;/button&gt;
+
 &lt;/pre&gt;</summary><category term="w15"></category></entry><entry><title>w14練習</title><link href="./w14lian-xi.html" rel="alternate"></link><published>2016-12-16T13:00:00+08:00</published><updated>2016-12-16T13:00:00+08:00</updated><author><name>郭育良</name></author><id>tag:,2016-12-16:./w14lian-xi.html</id><summary type="html">&lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" 
