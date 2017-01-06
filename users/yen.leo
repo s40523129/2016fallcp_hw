@@ -70,10 +70,11 @@
 <v t="leo.20161223145153.1"><vh>@edit 20161223.md</vh></v>
 <v t="leo.20161230132934.1"><vh>@edit 20161230.md</vh></v>
 <v t="leo.20161230150424.1"><vh>@edit 20161230-2.md</vh></v>
+<v t="leo.20170106132122.1"><vh>@edit 20170106.md</vh></v>
 </v>
 </v>
 </v>
-<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
+<v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
 <v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 </v>
